@@ -47,25 +47,25 @@ flash36 = Mutilate a doll
 
 flash37 = Doom
 
-flash38 = ageofwar.swf	
+flash38 = age of war	
 
-flash39 = SMflash.swf
+flash39 = SM flash
 	
-flash40 = happywheels.swf	
+flash40 = happywheels	
 
-flash41 = feudalism2.swf	
+flash41 = feudalism 2	
 
-flash42 = fallout.swf	
+flash42 = fallout
 
 flash43 = Tank Trouble		
 
-flash44 = getout.swf	
+flash44 = getout	
 
-flash45 = FPadventures.swf	
+flash45 = FP adventures	
 
-flash46 = duckhunt.swf
+flash46 = duck hunt
 
-flash47 = motoX3M.swf
+flash47 = moto X3M 3
 
 flash48 = Coreball (html5)
 
@@ -83,8 +83,34 @@ flash54 = 40x escape
 
 flash55 = bloxors 
 
-flash56 = diggy
+flash56 = Gravitex 2
 
 flash57 = civiballs 1
 
-flash 58 = civiballs 2
+flash58 = civiballs 2
+
+flash59 = Diggy
+
+flash60 = strike force heros
+
+flash61 = sugar, sugar
+
+flash62 = sugar, sugar 2
+
+flash63 = pokemon red desktop
+
+flash64 = pokemon red chromebook
+
+flash65 = pokemon ruby desktop
+
+flash66 = pokemon ruby chromebook
+
+flash67 = pokemon emerald desktop
+
+flash68 = pokemon emerald chromebook
+
+flash69 = duck life 1
+
+flash70 = duck life 2
+
+flash71 = cubefield

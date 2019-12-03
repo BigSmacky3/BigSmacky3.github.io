@@ -190,3 +190,20 @@ p.papa {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+p.maintext_centered {
+	white-space: pre-wrap;
+	font-variant-ligatures: none;
+	font-style: inherit;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+	line-height: 1.4;
+	font-size: 30px;
+	color: rgba(255,255,255,1);
+	text-align: center;
+	box-sizing: border-box;
+	display: inline-block;
+	max-width: 100%;
+	pointer-events: all;
+	position: relative;	
+}
