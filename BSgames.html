@@ -18,43 +18,31 @@
 	<body class="papa">
 	<!-- Top Nav Bar -->
 	<div class="topnav">
-  <a class="active" href="index.html">⠀⠀⠀</a> 
-  <a class="active" href="index.html">Home</a>
-  <a class="active" href="BSgames.html">Games</a>
-  <a class="active" href="BSdesktop.html">Desktop Games</a>
-  <a class="active" href="PapaGames.html">Papa's Games</a>
-  <a class="active" href="PapaDesktop.html">Papa's Games Desktop</a>
-  <a class="active" href="Minecraft.html">MC Server</a>
-  <a class="active" href="BSGroupchat.html">Groupchat</a>
-  <a class="active" href="BScontact.html">Contact</a>
+	<div class="topnav">
+	<li><a class="active" href="index.html">Home</a></li>
+	<li><a class="active" href="BSgames.html">Games</a></li>
+	<li><a class="active" href="BSdesktop.html">Desktop Games</a></li>
+	<li><a class="active" href="PapaGames.html">Papa's Games</a></li>
+	<li><a class="active" href="PapaDesktop.html">Papa's Games Desktop</a></li>
+	<li><a class="active" href="Minecraft.html">MC Server</a></li>
+  	<li><a class="active" href="updates.html">Updates</a></li>
+  	<li><a class="active" href="BScontact.html">Contact</a></li>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
 	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+	</script>
 	<!-- End of top nav -->
-	<!-- Search Bar -->
-	<!-- <div class="wrap">
-   <div class="search">
-      <input type="text" class="searchTerm" placeholder="What game do you want to find?">
-      <button type="submit" class="searchButton">
-        <i class="fa fa-search"></i>
-     </button>
-   </div>
-</div> -->
-		<!-- End search bar -->
 	<h1 class="header">Games</h1>
 	<p class="center">This is the Big Smacky games list. If your favorite (unblocked) game isn't on here, head on over to the Contact Us page and send us an email. The more recently added games are at the bottom.</p>
-	<div><table border="0"span style="pre-wrap;
-font-variant-ligatures: none;
-font-style: inherit;
-font-family: Lato, sans-serif;
-font-weight: 400;
-line-height: 1.4;
-font-size: 23px;
-color: rgba(255,255,255,1);
-text-align: center;
-box-sizing: border-box;
-display: inline-block;
-max-width: 100%;
-pointer-events: all;
-position: relative;">
+	<div><table class="games">
    <tr>
   	<!-- Jacksmith --><td><p><a href="games/flash23.html"><img src="images/Jacksmith.png" width="200" height="200" vspace="32"hspace="32"/></a>Jacksmith</p></td>
   	<!-- Aquar.io --><td><p><a href="http://aquar.io/"target="_blank"><img src="images/aquario.jpg" width="200" height="200" vspace="32"hspace="32"/></a>Aquar.io</p></td>

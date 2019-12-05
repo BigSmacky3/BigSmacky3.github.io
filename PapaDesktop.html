@@ -15,44 +15,37 @@
 	<link rel="manifest" href="/site.webmanifest">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="style.css" rel="stylesheet" type="text/css">
- <style>
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px; color: #800080;}
-  .sidenav a {font-size: 18px; color: #800080;}
-</style>
 </head>
 <body class="papa">
 	<!-- Top Nav Bar -->
 	<div class="topnav">
-  <a class="active" href="index.html">⠀⠀⠀</a> 
-  <a class="active" href="index.html">Home</a>
-  <a class="active" href="BSgames.html">Games</a>
-  <a class="active" href="BSdesktop.html">Desktop Games</a>
-  <a class="active" href="PapaGames.html">Papa's Games</a>
-  <a class="active" href="PapaDesktop.html">Papa's Games Desktop</a>
-  <a class="active" href="Minecraft.html">MC Server</a>
-  <a class="active" href="BSGroupchat.html">Groupchat</a>
-  <a class="active" href="BScontact.html">Contact</a>
+	<div class="topnav">
+	<li><a class="active" href="index.html">Home</a></li>
+	<li><a class="active" href="BSgames.html">Games</a></li>
+	<li><a class="active" href="BSdesktop.html">Desktop Games</a></li>
+	<li><a class="active" href="PapaGames.html">Papa's Games</a></li>
+	<li><a class="active" href="PapaDesktop.html">Papa's Games Desktop</a></li>
+	<li><a class="active" href="Minecraft.html">MC Server</a></li>
+  	<li><a class="active" href="updates.html">Updates</a></li>
+  	<li><a class="active" href="BScontact.html">Contact</a></li>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
 	</div>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+	</script>
 	<!-- End of top nav -->
 <h1 class="header">Papa's Games</h1>
 <p class="center">⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀Note: If it says flash player is disabled, copy and paste "chrome://settings/content/flash" into a tab and click the button next to "block flash"</a></p>
-	<div><table border="0"span style="pre-wrap;
-font-variant-ligatures: none;
-font-style: inherit;
-font-family: Lato, sans-serif;
-font-weight: 400;
-line-height: 1.4;
-font-size: 23px;
-color: rgba(255,255,255,1);
-text-align: center;
-box-sizing: border-box;
-display: inline-block;
-max-width: 100%;
-pointer-events: all;
-position: relative;">
+	<div><table class="games">
    <tr>
-    	<!-- Bakeria --><td><p><a href="games/papa1.html"><img src="images/bakeria.jpeg" width="200" height="200" vspace="80"hspace="80"/></a>Papa's Bakeria</p></td>
+    <!-- Bakeria --><td><p><a href="games/papa1.html"><img src="images/bakeria.jpeg" width="200" height="200" vspace="80"hspace="80"/></a>Papa's Bakeria</p></td>
    	<!-- Burgeria --><td><p><a href="games/papa2.html"><img src="images/Burgeria.jpeg" width="200" height="200" vspace="80"hspace="80"/></a>Papa's Burgeria</p></td>
 	<!-- Cheese --><td><p><a href="games/papa3.html"><img src="images/Cheese.jpeg" width="200" height="200" vspace="80"hspace="80"/></a>Papa's Cheeseria</p></td>
 	<!-- Cupcake --><td><p><a href="games/papa4.html"><img src="images/Cupcake.jpeg" width="200" height="200" vspace="80"hspace="80"/></a>Papa's Cupcakeria</p></td>
